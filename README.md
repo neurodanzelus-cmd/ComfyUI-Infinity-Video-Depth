@@ -2,6 +2,9 @@
 
 This is a [ComfyUI](https://github.com/comfyanonymous/ComfyUI) implementation of [Video-Depth-Anything](https://github.com/DepthAnything/Video-Depth-Anything), re-engineered for consistent, memory-efficient depth estimation on infinite length video sequences.
 
+
+<img width="3791" height="1466" alt="image" src="https://github.com/user-attachments/assets/71627678-5482-416f-b52d-d408e948d176" />
+
 ## Features
 
 - **Infinite Length Support**: Processes video sequences of any length (10,000+ frames) on consumer GPUs without running out of VRAM.
@@ -39,7 +42,8 @@ Loads the model weights.
 The core inference node.
 -   **use_streaming**: **Enable this for long videos.** It activates the memory-efficient engine.
 -   **clean_cache_interval**: How often (in frames) to trigger garbage collection. Default `10` is safe for low-VRAM cards.
--   **colormap**: Select a visualization style (`gray`, `inferno`, `viridis`, etc.) for the preview output.
+-   **colormap**: Select a visualization style (`gray`, `inferno`, `viridis`, etc.) for the preview output. <img width="700" height="260" alt="image" src="https://github.com/user-attachments/assets/3cb9ea9b-85d2-4866-9e0f-1d594660fb8f" />
+
 
 **Outputs:**
 -   **depth_preview**: Colorized RGB image for preview/video.
