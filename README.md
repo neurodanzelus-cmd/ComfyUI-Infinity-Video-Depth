@@ -60,7 +60,7 @@ A utility node to apply colormaps to existing depth images.
 
 1.  Clone into `ComfyUI/custom_nodes`:
     ```bash
-    git clone https://github.com/yourusername/ComfyUI-Infinity-Video-Depth.git
+    git clone https://github.com/neurodanzelus-cmd/ComfyUI-Infinity-Video-Depth.git
     ```
 2.  Install dependencies:
     ```bash
